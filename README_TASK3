@@ -1,0 +1,33 @@
+# 🧠 Task 3: Natural Language Processing — Sentiment Analysis
+
+## 📌 Objective
+Perform sentiment analysis on text data using **NLTK** to classify movie reviews as *positive* or *negative*.
+
+---
+
+## ⚙️ Technologies & Tools
+- Python
+- NLTK
+- Scikit-learn
+- Jupyter Notebook / Google Colab
+
+---
+
+## 🚀 Steps Performed
+1. **Imported** the movie reviews dataset from NLTK.
+2. **Preprocessed** text data (tokenization, lowercasing, removing stopwords).
+3. **Extracted Features** using the top 2000 frequent words.
+4. **Trained** a Naive Bayes classifier for sentiment prediction.
+5. **Evaluated** accuracy on test data and predicted custom sentences.
+
+---
+
+## 📊 Model Summary
+| Metric | Value |
+|---------|--------|
+| Classifier | Naive Bayes |
+| Dataset | NLTK Movie Reviews |
+| Accuracy | ~78% |
+| Language | English |
+
+---
