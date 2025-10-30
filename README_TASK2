@@ -1,0 +1,53 @@
+# 🤖 Task 2: Machine Learning Model
+
+## 🎯 Objective
+Build, train, and evaluate **Machine Learning models** using **Scikit-learn**.  
+This task demonstrates how to use algorithms such as **Decision Tree** and **Logistic Regression** for classification tasks.
+
+---
+
+## 🧠 Overview
+This task is part of the **Artificial Intelligence Hands-on Series**.  
+The goal is to understand **supervised learning workflows** — training a model, testing it, and evaluating its accuracy.
+
+The **Iris dataset** (from sklearn) is used for simplicity and visualization.
+
+---
+
+## ⚙️ Steps Performed
+1. **Data Loading & Preprocessing**
+   - Loaded the Iris dataset.
+   - Normalized feature values using `StandardScaler()`.
+
+2. **Model Building**
+   - Trained two ML models:
+     - 🌳 **Decision Tree Classifier**
+     - 🤖 **Logistic Regression Classifier**
+
+3. **Model Evaluation**
+   - Evaluated models using:
+     - Accuracy Score
+     - Classification Report
+     - Confusion Matrix
+   - Compared both models’ performances.
+
+4. **Visualization**
+   - Plotted confusion matrices and accuracy comparison chart.
+
+---
+
+## 🧩 Technologies & Tools
+- **Language:** Python  
+- **Libraries:** Scikit-learn, Pandas, NumPy, Matplotlib  
+- **Environment:** Google Colab / Jupyter Notebook  
+
+---
+
+## 📊 Results
+- **Decision Tree Accuracy:** ~1.00  
+- **Logistic Regression Accuracy:** ~0.97  
+- Both models achieved high accuracy on the Iris dataset.  
+- Visual comparison of both models shown via bar chart.
+
+---
+
